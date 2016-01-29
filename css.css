@@ -1,0 +1,40 @@
+ #titulo{
+	color: #0000FF;
+	font-family: fantasy;
+	font-size: xx-large;
+}
+
+#subtitulo{
+	font-family: serif;
+	font-size: 16px;
+	margin-top:-7px;
+}
+
+.texto{
+	font-size: x-small;
+	text-align: left;
+	
+}
+
+#botao{
+	background-color: orange;
+	color:white;
+	
+}
+
+ #logo{
+	margin-top: 3% !important;
+	margin-bottom: auto;
+}
+
+#tituloTexto{
+	font-size: large !important;
+	color: white !important;
+}
+
+ #inputs{
+	float:right;
+	margin-top:-200px;
+	margin-right: 300px;
+} 
+ 
