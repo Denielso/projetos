@@ -59,7 +59,7 @@ public class Email {
 		email.setSSLOnConnect(true);
 		email.setHostName( "smtp.gmail.com" );
 		email.setSslSmtpPort( "465" );
-		email.setAuthenticator( new DefaultAuthenticator( "denielsomartins@gmail.com" , "2308198717denielso" ) );
+		email.setAuthenticator( new DefaultAuthenticator( "meuspedidos2016@gmail.com" , "meuspedidos" ) );
 		try {
 			EmailAttachment anexo = new EmailAttachment();
 			anexo.setPath("D:/ebook.pdf"); //caminho do arquivo)
@@ -67,7 +67,7 @@ public class Email {
 			anexo.setDescription("Gestão de Representantes.");
 			anexo.setName("ebook - Gestão de Representantes.");	
 			
-		    email.setFrom( "denielsomartins@gmail.com" , "Denielso Cardoso");
+		    email.setFrom( "meuspedidos@gmail.com" , "Meus Pedidos");
 		    email.setDebug(true); 
 		    email.setSubject( "Meus Pedidos" );
 		     
